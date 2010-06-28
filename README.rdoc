@@ -1,6 +1,6 @@
 = pickle-mongoid
 
-Description goes here.
+ianwhite's pickle mongoid adapter
 
 == Note on Patches/Pull Requests
  
