@@ -13,11 +13,7 @@ module Mongoid #:nodoc:
 
       # Gets a list of the available models for this adapter
       def self.model_classes
-        @@model_classes ||=
-        Dir[Rails.root.to_s + '/app/models/**/*.rb'].map do |model_path|
-          model_name = File.basename(model_path).gsub(/\.rb$/, '')
-          klass = model_name.classify.constantize
-        end.reject { |klass| !klass.respond_to?('collection') }
+        @@model_classes ||= ObjectSpace.each_object(Class).select {|klass| klass.ancestors.include?(Mongoid::Document)}
       end
 
       # get a list of column names for a given class

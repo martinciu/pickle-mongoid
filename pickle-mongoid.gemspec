@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/pickle-mongoid.rb",
-     "lib/pickle/adapters/mongoid.rb"
+     "lib/pickle/adapters/mongoid.rb",
+     "pickle-mongoid.gemspec"
   ]
   s.homepage = %q{http://github.com/martinciu/pickle-mongoid}
   s.rdoc_options = ["--charset=UTF-8"]
