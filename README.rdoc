@@ -2,6 +2,16 @@
 
 ianwhite's pickle mongoid adapter
 
+== Installation
+
+You can let bundler to install pickle-mongoid by adding this line to your application's Gemfile:
+
+  gem 'pickle-mongoid'
+
+And then execute:
+
+  bundle install
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
