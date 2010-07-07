@@ -1,0 +1,47 @@
+--- 
+dependencies: 
+  rspec: 
+    group: 
+    - :development
+    version: ">= 1.3.0"
+  bundler: 
+    group: 
+    - :development
+    version: ">= 0"
+  pickle: 
+    group: 
+    - :default
+    version: ">= 0.3.0"
+  mongoid: 
+    group: 
+    - :default
+    version: ">= 2.0.0.beta7"
+specs: 
+- activesupport: 
+    version: 3.0.0.beta4
+- builder: 
+    version: 2.1.2
+- i18n: 
+    version: 0.4.1
+- activemodel: 
+    version: 3.0.0.beta4
+- bson: 
+    version: 1.0.3
+- bundler: 
+    version: 0.9.26
+- mongo: 
+    version: 1.0.3
+- tzinfo: 
+    version: 0.3.22
+- will_paginate: 
+    version: 3.0.pre
+- mongoid: 
+    version: 2.0.0.beta7
+- pickle: 
+    version: 0.3.0
+- rspec: 
+    version: 1.3.0
+hash: 0c681cd32cc6565be22c0f633bec11aaf04718be
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
