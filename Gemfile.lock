@@ -15,33 +15,33 @@ dependencies:
   mongoid: 
     group: 
     - :default
-    version: ">= 2.0.0.beta7"
+    version: ">= 2.0.0.beta.7"
 specs: 
 - activesupport: 
-    version: 3.0.0.beta4
+    version: 3.0.0.rc
 - builder: 
     version: 2.1.2
 - i18n: 
     version: 0.4.1
 - activemodel: 
-    version: 3.0.0.beta4
+    version: 3.0.0.rc
 - bson: 
-    version: 1.0.3
+    version: 1.0.4
 - bundler: 
     version: 0.9.26
 - mongo: 
-    version: 1.0.3
+    version: 1.0.6
 - tzinfo: 
     version: 0.3.22
 - will_paginate: 
-    version: 3.0.pre
+    version: 3.0.pre2
 - mongoid: 
-    version: 2.0.0.beta7
+    version: 2.0.0.beta9
 - pickle: 
     version: 0.3.0
 - rspec: 
     version: 1.3.0
-hash: 0c681cd32cc6565be22c0f633bec11aaf04718be
+hash: 842a20807cc9dee2dbdb2a75fd92200f0f057395
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org

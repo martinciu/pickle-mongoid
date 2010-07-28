@@ -1,5 +1,5 @@
 source :rubygems
-gem "mongoid", ">=2.0.0.beta7"
+gem "mongoid", ">=2.0.0.beta.7"
 gem "pickle", ">=0.3.0"
 
 group :development do
